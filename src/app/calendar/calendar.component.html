@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-content>
+        <table>
+            <tr>
+                <th>H</th>
+                <th>K</th>
+                <th>Sz</th>
+                <th>Cs</th>
+                <th>P</th>
+                <th>Szo</th>
+                <th>V</th>
+            </tr>
+            @for (hour of hours; track $index) {
+                <tr>
+                    @for (day of days; track $index) {
+                        <td></td>
+                    }
+                </tr>
+            }
+        </table>    
+    </mat-card-content>
+</mat-card>

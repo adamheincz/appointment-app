@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    border: 1px solid lightgray;
+}
